@@ -11,9 +11,9 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${SITE.domain}`),
-  title: "Zahnarzt Wien | Moderne Zahnmedizin & schnelle Termine",
+  title: "Zahnarzt Wien 1200 – Dr. Sablania | Implantat | Krone & Brücke",
   description:
-    "Ihr Zahnarzt in Wien für professionelle Behandlungen, schnelle Termine und moderne Zahnmedizin. Jetzt Termin vereinbaren!",
+    "Zahnarzt Wien 1200 & 1210, 1220, 1190, 1020 Wien (Dr. Manish Sablania), Klosterneuburg: Mundhygiene, Füllungen, Implantat, Bleaching, Krone & Brücke, Kieferorthopädie.",
   keywords: [
     "Zahnarzt Wien",
     "Zahnärzte Wien",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     "Zahnarzt in meiner Nähe Wien",
   ],
   openGraph: {
-    title: "Zahnarzt Wien | Moderne Zahnmedizin & schnelle Termine",
+    title: "Zahnarzt Wien 1200 – Dr. Sablania | Implantat | Krone & Brücke",
     description:
-      "Ihr Zahnarzt in Wien für professionelle Behandlungen, schnelle Termine und moderne Zahnmedizin.",
+      "Zahnarzt Wien 1200: Allgemeine und ästhetische Zahnheilkunde, Kieferorthopädie, Implantologie – Dr. Manish Sablania.",
     locale: "de_AT",
     type: "website",
     url: `https://${SITE.domain}`,
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zahnarzt Wien | Moderne Zahnmedizin & schnelle Termine",
+    title: "Zahnarzt Wien 1200 – Dr. Sablania | Implantat | Krone & Brücke",
     description:
-      "Ihr Zahnarzt in Wien für professionelle Behandlungen, schnelle Termine und moderne Zahnmedizin.",
+      "Zahnarzt Wien 1200: Kieferorthopädie, Implantat, Krone & Brücke – Dr. Manish Sablania.",
   },
   robots: {
     index: true,

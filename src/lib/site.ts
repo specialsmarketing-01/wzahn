@@ -1,16 +1,26 @@
-/** Placeholder contact & location — replace with real clinic data before launch */
+/** Contact & branding — adjust address/phone when going live */
 export const SITE = {
-  name: "WienZahn Ärzte",
+  /** Legal / schema name */
+  name: "Dr. med. dent Manish Sablania",
+  logoSrc: "/logo.png",
+  brand: {
+    title: "Dr. med. dent",
+    name: "Manish Sablania",
+    credentials: "BDS M.Sc. Specialized Orthodontics",
+  },
   domain: "wienzahnaerzte.at",
-  phoneDisplay: "+43 1 234 56 789",
-  phoneTel: "+43123456789",
+  phoneDisplay: "+43 1 3306090",
+  phoneTel: "+4313306090",
   address: {
-    street: "Musterstraße 15",
-    zip: "1010",
+    street: "Forsthausgasse 16-20/ Stiege 3/ EG",
+    zip: "1200",
     city: "Wien",
     country: "Österreich",
   },
-  email: "termin@wienzahnaerzte.at",
+  email: "info@zahnspange-sablania.at",
+  emailSecondary: "info@wienzahnaerzte.at",
+  /** `public/video.mp4` — hero column media */
+  heroVideoSrc: "/video.mp4",
   mapsEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.2!2d16.3738!3d48.2082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079e5136ca9f%3A0xfdc2e58a51a1ef92!2sStephansplatz%2C%201010%20Wien!5e0!3m2!1sde!2sat!4v1700000000000!5m2!1sde!2sat",
+    "https://www.google.com/maps?q=Forsthausgasse+16-20%2C+1200+Wien%2C+%C3%96sterreich&output=embed",
 } as const;
