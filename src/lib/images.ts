@@ -6,7 +6,7 @@ const u = (id: string, w: number) =>
   `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
 
 export const IMAGES = {
-  /** Modern bright dental clinic interior */
+  /** Bright dental clinic interior */
   hero: u("photo-1629909613654-28e377c37b09", 1400),
   /** Dental instruments / professional care */
   dentalInstruments: u("photo-1579684385127-1ef15d508118", 800),

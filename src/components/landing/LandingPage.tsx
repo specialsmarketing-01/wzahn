@@ -23,7 +23,7 @@ import {
 
 const trustItems = [
   {
-    title: "Moderne Ausstattung",
+    title: "Hochwertige Ausstattung",
     desc: "Digitale Diagnostik und schonende Behandlungsmethoden.",
     icon: IconSparkle,
   },
@@ -139,7 +139,7 @@ export function LandingPage() {
             className="absolute inset-0 z-0 hidden bg-cover bg-center motion-reduce:block"
             style={{ backgroundImage: `url(${IMAGES.hero})` }}
             role="img"
-            aria-label="Moderne Zahnarztpraxis in Wien"
+            aria-label="Zahnarztpraxis in Wien"
           />
           <div
             className="absolute inset-0 z-[1] bg-gradient-to-br from-slate-950/88 via-slate-900/65 to-slate-800/45"
@@ -407,7 +407,7 @@ export function LandingPage() {
                 Warum Patienten uns vertrauen
               </h2>
               <p className="mt-4 text-slate-600">
-                Moderne Technologien, ein breites Leistungsspektrum und der Fokus auf Ihr Wohlbefinden – in 1200 Wien,
+                Fortschrittliche Verfahren, ein breites Leistungsspektrum und der Fokus auf Ihr Wohlbefinden – in 1200 Wien,
                 gut erreichbar aus den umliegenden Bezirken.
               </p>
               <ul className="mt-8 space-y-4">
