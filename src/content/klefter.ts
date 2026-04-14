@@ -30,64 +30,77 @@ export const klefterIntro = {
     "Unsere Praxis als Zahnarzt Wien 1200 bietet ein breites Spektrum an zahnärztlichen Leistungen an, um alle Ihre Bedürfnisse abzudecken. Von der allgemeinen Zahnheilkunde – etwa professioneller Mundhygiene und Untersuchung – bis hin zu spezialisierten Bereichen wie ästhetischen Zahnfüllungen, Zahnbleaching, Kieferorthopädie, Implantat, unsichtbarer Zahnspange und Invisalign: Dr. med. dent. Manish Sablania ist für Sie da. Unsere Zahnarztpraxis in 1200 Wien nutzt moderne Technologien und fortschrittliche Behandlungsmethoden für eine hochwertige und effektive Versorgung.",
 } as const;
 
+/** Card images match klefter.com flip-box front backgrounds (Elementor post-11.css). */
 export const klefterServices = [
   {
     title: "Zahnspange",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/02/Braces.png`,
     desc: "Eine Zahnspange korrigiert Zahnfehlstellungen und sorgt für ein gerades Lächeln. Sie übt sanften Druck auf die Zähne aus, um sie in die richtige Position zu bringen – für Kinder und Erwachsene geeignet.",
     href: "https://zahnspange-sablania.at/kieferorthopadie/",
   },
   {
     title: "Zahnbleaching",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/02/Teeth-Whitening-1.png`,
     desc: "Zahnbleaching hellt verfärbte Zähne auf und sorgt für ein strahlenderes Lächeln. Die Behandlung ist schnell, sicher und bringt beeindruckende Ergebnisse.",
     href: "https://zahnspange-sablania.at/zahnbleaching/",
   },
   {
     title: "Professionelle Mundhygiene",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/02/oral-hygiene.png`,
     desc: "Professionelle Mundhygiene entfernt hartnäckige Beläge und Zahnstein, schützt vor Karies und Parodontitis und sorgt für ein frisches, sauberes Mundgefühl.",
     href: "https://zahnspange-sablania.at/mundhygiene-wien/",
   },
   {
     title: "Myofunktionelle Therapie",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/02/mayo.png`,
     desc: "Die myofunktionelle Therapie trainiert die Gesichtsmuskulatur und unterstützt eine korrekte Zungen- und Lippenfunktion. Sie kann dabei helfen, Kiefer- und Zahnfehlstellungen günstig zu beeinflussen.",
     href: "https://zahnspange-sablania.at/myofunktionelle-therapie/",
   },
   {
     title: "Ästhetische Zahnfüllungen",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/02/teeth-filling.png`,
     desc: "Ästhetische Zahnfüllungen reparieren kariöse Zähne und passen sich farblich perfekt an das natürliche Zahnmaterial an. Sie bieten eine unauffällige und langlebige Lösung für ein schönes Lächeln.",
     href: "https://zahnspange-sablania.at/komposit-zahnfullung/",
   },
   {
     title: "Invisalign",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/02/invisalign.png`,
     desc: "Invisalign ist eine nahezu unsichtbare Zahnschiene, die Zahnfehlstellungen sanft und diskret korrigiert. Die Schiene ist herausnehmbar und ermöglicht eine komfortable Behandlung für ein schönes, gerades Lächeln.",
     href: "https://zahnspange-sablania.at/unsichtbare-zahnspange-wien/",
   },
   {
     title: "Zahnimplant",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/02/implant.png`,
     desc: "Ein Zahnimplantat ersetzt fehlende Zähne dauerhaft und fühlt sich an wie ein natürlicher Zahn. Es wird fest im Kiefer verankert und bietet Stabilität, Komfort und eine ästhetische Lösung für ein vollwertiges Lächeln.",
     href: "https://zahnspange-sablania.at/implantat-wien/",
   },
   {
     title: "Sportschutz",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/02/Zaehne-Sportschutz.png`,
     desc: "Ein Sportmundschutz schützt Zähne und Kiefer vor Verletzungen bei sportlichen Aktivitäten. Individuell angepasst, bietet er hohen Tragekomfort und maximale Sicherheit für Sportler jeden Alters.",
     href: "https://zahnspange-sablania.at/sportschutz-mouthguards/",
   },
   {
     title: "Krone-Brücke",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/02/Krone.png`,
     desc: "Kronen und Brücken ersetzen beschädigte oder fehlende Zähne und stellen Funktion und Ästhetik des Gebisses wieder her. Sie sind langlebig, stabil und werden farblich an die natürlichen Zähne angepasst.",
     href: "https://zahnspange-sablania.at/krone-brucke/",
   },
   {
     title: "Vollprothesen",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/06/ChatGPT-Image-Apr-29-2025-12_07_55-PM.png`,
     desc: "Vollprothesen werden verwendet, wenn alle Zähne im Ober- oder Unterkiefer fehlen.",
     href: "https://zahnspange-sablania.at/zahnersatz/",
   },
   {
     title: "Teilprothesen",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/06/ChatGPT-Image-Apr-29-2025-12_23_42-PM.png`,
     desc: "Teilprothesen eignen sich für Patienten, die noch über natürliche Zähne verfügen.",
     href: "https://zahnspange-sablania.at/zahnersatz/",
   },
   {
     title: "Implantat getragener Zahnersatz",
+    image: `${KLEFTER_SITE}/wp-content/uploads/2025/06/ChatGPT-Image-Apr-29-2025-01_07_19-PM.png`,
     desc: "Implantatgetragener Zahnersatz wird mit Zahnimplantaten befestigt und bietet im Vergleich zu herkömmlichem Zahnersatz eine höhere Stabilität.",
     href: "https://zahnspange-sablania.at/zahnersatz/",
   },

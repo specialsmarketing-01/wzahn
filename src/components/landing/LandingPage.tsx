@@ -19,7 +19,6 @@ import {
   IconPhone,
   IconShield,
   IconSparkle,
-  IconTooth,
 } from "./icons";
 
 const trustItems = [
@@ -348,29 +347,34 @@ export function LandingPage() {
               </p>
             </div>
             <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {klefterServices.map((s, i) => (
+              {klefterServices.map((s) => (
                 <a
                   key={s.title}
                   href={s.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex flex-col rounded-2xl border border-slate-100 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-sky-200 hover:shadow-md"
+                  className="group flex flex-col overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-sm transition hover:-translate-y-0.5 hover:border-sky-200 hover:shadow-md"
                 >
-                  <div className="mb-2 flex items-center gap-2 text-sky-700">
-                    {i % 2 === 0 ? (
-                      <IconTooth className="h-5 w-5 shrink-0" />
-                    ) : (
-                      <IconSparkle className="h-5 w-5 shrink-0" />
-                    )}
-                    <h3 className="text-base font-semibold text-slate-900 group-hover:text-sky-800">{s.title}</h3>
+                  <div className="relative aspect-[5/3] w-full bg-slate-100">
+                    <Image
+                      src={s.image}
+                      alt={`${s.title} – Leistung der Zahnarztpraxis Wien 1200`}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      loading="lazy"
+                      className="object-cover transition duration-300 group-hover:scale-[1.02]"
+                    />
                   </div>
-                  <p className="flex-1 text-sm leading-relaxed text-slate-600">{s.desc}</p>
-                  <span className="mt-4 inline-flex items-center text-sm font-medium text-sky-600">
-                    Mehr lesen
-                    <span className="ml-1 transition group-hover:translate-x-0.5" aria-hidden>
-                      →
+                  <div className="flex flex-1 flex-col p-5">
+                    <h3 className="text-base font-semibold text-slate-900 group-hover:text-sky-800">{s.title}</h3>
+                    <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-600">{s.desc}</p>
+                    <span className="mt-4 inline-flex items-center text-sm font-medium text-sky-600">
+                      Mehr lesen
+                      <span className="ml-1 transition group-hover:translate-x-0.5" aria-hidden>
+                        →
+                      </span>
                     </span>
-                  </span>
+                  </div>
                 </a>
               ))}
             </div>
